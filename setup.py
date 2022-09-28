@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Alexander März",
     author_email="alex.maerz@gmx.net",
-    url="https://github.com/StatMixedML/XGBoostLSS",
+    url="https://github.com/pvs31/xgboostlsstest",
     license="Apache License 2.0",
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,
@@ -18,7 +18,7 @@ setup(
     install_requires=[
         "xgboost~=1.4.2",
         "optuna~=2.9.1",
-        "torch~=1.10.0",
+        "torch",
         "properscoring~=0.1",
         "scikit-learn>=0.24.2",
         "shap~=0.39.0",
