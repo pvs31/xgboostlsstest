@@ -1,0 +1,11 @@
+# Pycharm
+.idea/
+dist/
+latex_distributions
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
